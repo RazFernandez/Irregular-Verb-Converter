@@ -30,7 +30,7 @@ Users can also look up specific verbs to see some examples and their meanings.
 
 - Once you look up a verb, the app will display three examples in the three time tenses (infinitive, past simple, and past participle).
 
-### Gama view
+### Game view
 ![image](https://github.com/Maxrealms2002/Irregular-Verb-Converter/assets/96704399/ac15ca0c-9976-4ec4-8bd4-f3e62398492f)
 
 - The main feature of this software is the possibility to put into practice and reinforce the comprehension of these verbs by playing an interactive game.

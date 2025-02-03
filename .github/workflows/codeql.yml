@@ -11,11 +11,20 @@
 #
 name: "CodeQL Advanced"
 
+# Ways to trigger the scan code analysis
 on:
+  # Trigger a scan on every push to the "main" branch
   push:
-    branches: [ "main" ]
+    branches: [ "main" ]  
+
+  # Trigger a scan when a pull request is opened or updated against "main"
   pull_request:
-    branches: [ "main" ]
+    branches: [ "main" ]  
+    paths-ignore:
+      - '**/*.md'   # Ignore markdown files to avoid unnecessary scans
+      - '**/*.txt'  # Ignore text files as they do not affect code security
+
+  # Schedule a scan to run automatically every Tuesday at 03:38 UTC
   schedule:
     - cron: '38 3 * * 2'
 

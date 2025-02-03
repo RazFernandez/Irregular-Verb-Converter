@@ -25,8 +25,8 @@ on:
       - '**/*.txt'  # Ignore text files as they do not affect code security
 
   # Schedule a scan to run automatically every Tuesday at 03:38 UTC
-  schedule:
-    - cron: '38 3 * * 2'
+  #schedule:
+  #  - cron: '38 3 * * 2'
 
 jobs:
   analyze:
